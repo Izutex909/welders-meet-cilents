@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101827">
+  <title>WeldLink | Find Trusted Welders</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #172033;
+    }
+    header {
+      background: #101827;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .logo { font-size: 28px; font-weight: bold; }
+    .logo span { color: #f5a623; }
+    nav { margin-top: 16px; }
+    nav a {
+      color: white;
+      margin: 0 8px;
+      text-decoration: none;
+    }
+    .hero {
+      background: #172b4d;
+      color: white;
+      text-align: center;
+      padding: 55px 20px;
+    }
+    .hero h1 { font-size: 36px; margin: 0 0 16px; }
+    .hero p { line-height: 1.6; }
+    .button {
+      display: inline-block;
+      padding: 13px 18px;
+      margin: 8px 4px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      background: #f5a623;
+      color: #172033;
+    }
+    .section { padding: 30px 18px; text-align: center; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 18px;
+      max-width: 900px;
+      margin: 20px auto;
+    }
+    .card {
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 3px 12px #00000010;
+    }
+    .card p { line-height: 1.6; }
+    footer {
+      background: #101827;
+      color: white;
+      text-align: center;
+      padding: 24px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Weld<span>Link</span></div>
+    <nav>
+      <a href="#clients">Clients</a>
+      <a href="#welders">Welders</a>
+      <a href="#how">How It Works</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Find the Right Welder</h1>
+    <p>Connecting trusted welding professionals with clients
+      across Nigeria.</p>
+    <a class="button" href="#clients">Find a Welder</a>
+    <a class="button" href="#welders">Join as a Welder</a>
+  </section>
+
+  <section class="section" id="clients">
+    <h2>For Clients</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Find Skilled Welders</h3>
+        <p>Discover professionals for gates, doors, repairs,
+          fabrication and other welding jobs.</p>
+        <a class="button" href="mailto:hello@weldlink.ng?subject=Welding%20Service%20Request">Request a Service</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="welders">
+    <h2>For Welders</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Grow Your Business</h3>
+        <p>Showcase your skills and connect with customers
+          looking for welding services.</p>
+        <a class="button" href="mailto:hello@weldlink.ng?subject=Welder%20Registration">Join WeldLink</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="how">
+    <h2>How WeldLink Works</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>1. Connect</h3>
+        <p>Clients find welders for their projects.</p>
+      </div>
+      <div class="card">
+        <h3>2. Agree</h3>
+        <p>Discuss the job, location, price and schedule.</p>
+      </div>
+      <div class="card">
+        <h3>3. Complete</h3>
+        <p>Complete the work and apply the agreed
+          WeldLink commission model.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>WeldLink — Connecting Skills with Opportunity.</p>
+    <p>Serving clients and welders across Nigeria.</p>
+  </footer>
+</body>
+</html>
